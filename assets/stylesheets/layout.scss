@@ -1,10 +1,43 @@
 section {
 	padding:15px 0px;
 	min-height: 100vh;
+	border:1px solid purple;
+	border-left: 0;
+	border-right: 0;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
 
 	&.page-1 {
-		// background: url("../images/nawlins.jpg") no-repeat bottom;
-		// background-size:contain;
+		color:white;
+		background: url("../images/49758915020-dark.jpg") center no-repeat;
+		background-size:cover;
 		// background-attachment: fixed;
+		background-color:black;
+	
+		a {
+			color:white;
+		}
+	}
+
+	&#perc-marshwood {
+		background: url("../images/nawlins-dark.jpg") center no-repeat;
+		background-size: cover;
+		background-color: black;
+		color:white;
+	}
+
+	&#guard-wells {
+		background: url("../images/night-in-the-woods.jpg") center no-repeat;
+		background-size: cover;
+		background-color: black;
+		color:white;
+	}
+
+	&#guard-marshwood {
+		background: url("../images/mhs-guard-bg.jpg") center no-repeat;
+		background-size: cover;
+		background-color: black;
+		color:white;
 	}
 }
