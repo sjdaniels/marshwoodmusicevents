@@ -8,6 +8,11 @@ section {
 	flex-direction: column;
 	justify-content: space-between;
 
+	&.alt {
+		color:white;
+		background-color: $secondary;
+	}
+
 	&.page-1 {
 		color:white;
 		background: url("../images/49758915020-dark.jpg") center no-repeat;
