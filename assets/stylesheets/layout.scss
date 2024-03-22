@@ -1,12 +1,19 @@
+body, html {
+  scroll-snap-type: proximity;
+  scroll-snap-type: y proximity;
+}
+
 section {
 	padding:15px 0px;
 	min-height: 100vh;
+	width: 100vw;
 	border:1px solid purple;
 	border-left: 0;
 	border-right: 0;
 	display:flex;
 	flex-direction: column;
 	justify-content: space-between;
+	scroll-snap-align: start;
 
 	&.alt {
 		color:white;
