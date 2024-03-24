@@ -1,7 +1,7 @@
-body, html {
-  scroll-snap-type: proximity;
-  scroll-snap-type: y proximity;
-}
+// body, html {
+//   scroll-snap-type: proximity;
+//   scroll-snap-type: y proximity;
+// }
 
 section {
 	padding:15px 0px;
@@ -13,7 +13,7 @@ section {
 	display:flex;
 	flex-direction: column;
 	justify-content: space-between;
-	scroll-snap-align: start;
+	// scroll-snap-align: start;
 
 	&.alt {
 		color:white;
