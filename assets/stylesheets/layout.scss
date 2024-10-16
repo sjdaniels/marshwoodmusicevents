@@ -22,7 +22,7 @@ section {
 
 	&.page-1 {
 		color:white;
-		background: url("../images/2024/cover-bg.jpg") center no-repeat;
+		background: url("../images/2024-fall/IMG_1891.jpg") center no-repeat;
 		background-size:cover;
 		// background-attachment: fixed;
 		background-color:black;
@@ -30,19 +30,5 @@ section {
 		a {
 			color:white;
 		}
-	}
-
-	&#perc-bluehawks {
-		background: url("../images/2024/perc-bg.jpg") center no-repeat;
-		background-size: cover;
-		background-color: black;
-		color:white;
-	}
-
-	&#guard-marshwood {
-		background: url("../images/2024/guard-bg.jpg") center no-repeat;
-		background-size: cover;
-		background-color: black;
-		color:white;
 	}
 }

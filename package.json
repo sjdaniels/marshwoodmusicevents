@@ -12,11 +12,11 @@
     "npm": "^1.4.20"
   },
   "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-uglify": "^5.0.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-uglify": "^5.2.2",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.1.0",
-    "node-sass": "9"
+    "node-sass": "^9.0.0"
   },
   "private": true
 }

@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 			},
 			dist: {
 				files: {
-					'assets/dist/styles-winter-2024.css': 'assets/stylesheets/application.css.scss'
+					'assets/dist/styles-fall-2024.css': 'assets/stylesheets/application.css.scss'
 				}
 			}
 		},
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 					banner: '/*! Marshwood Music Events - Consolidated Open Source Libraries. Generated: <%= grunt.template.today("dd-mm-yyyy") %> */\n\n'
 				},
 				files: {
-					'assets/dist/lib-winter-2024.js':
+					'assets/dist/lib-fall-2024.js':
 					[
 				      	'node_modules/@popperjs/core/dist/umd/popper.js',
 				      	'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
